@@ -1,0 +1,55 @@
+html {
+  font-size: 62.5%;
+  line-height: 1.2;
+  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  text-align: center;
+  font-size: 2rem;
+
+  /* color: #000000;
+  color: #a8ce3b; */
+  user-select: none;
+
+  background-color: #a8ce3b;
+  color: #fff;
+}
+
+.top-content .logo {
+  display: block;
+  /* position: absolute; */
+  margin: 0 auto;
+  height: 180px;
+  /* top: 0;
+  left: 0; */
+}
+.text h3 {
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+.text h1 {
+  font-size: 5.5rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.top-content img {
+  display: block;
+
+  margin: 0px auto;
+  width: 760px;
+  height: 300px;
+}
+
+.bot-content ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.bot-content span {
+  font-size: 8rem;
+}
